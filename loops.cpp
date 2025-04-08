@@ -118,12 +118,30 @@ int main()
     //    cout << "its the correct digit" <<a;
     // }
 
-    int a;
-    cout << "enter number\n";
-    cin >> a;
-    while (a>0)
-    {
+    // int a;
+    // cout << "enter number\n";
+    // cin >> a;
+    // while (a>0)
+    // {
         
-    }
+    // }
+
+    // int i = 10;
+    // while (i)
+    // {
+    //     cout << i <<"\t";
+    //     i++;
+    // }
+
+    // int i = 10;
+    // while (i)
+    // {
+    //     cout << i <<"\t";
+    //     i--;
+    // } 
+
+
     
+
+
 }
