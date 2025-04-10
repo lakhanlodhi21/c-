@@ -140,8 +140,102 @@ int main()
     //     i--;
     // } 
 
+    // for loop
+
+    // for (int i = 0; i <=10; i++)
+    // {
+    //     cout << i << "\n";
+    // }
+
+    // int j;
+
+    // for ( j = 10; j <=20; j++)
+    // {
+    //     cout << j << "\n";
+    // }
+
+    // int x = 1;
+
+    // for (; x <= 5; x++)
+    // {
+    //     cout << x << "\n";
+    // }
+
+    // write a program to generate table of any number
+    // int a;
+    // cout<<"enter any number";
+    // cin >> a;
+    // for (int b = 1; b<=10; b++)
+    // {
+    //     cout << a * b << "\n";
+    // }
+
+    // write a progran to display odd number between 20 to 50
 
     
+    // for (int i = 20; i<=50; i++)
+    // {
+    //    if (i%2!=0)
+    //    {
+    //        cout << i << "\n";
+    //    }
+       
+    // }
+    
+// write a program to find out the given number is prime or not
 
+// jab pata hota hai ki loop kab se kab tak chalega to for loop 
+// jab pata nhii rehta ki kab se kab tak chalega  to while loop
 
+// both for hcf AND LCM
+
+// int n1 = 50;
+// int n2 = 10;
+// int min;
+//  min = n1 < n2 ? n1 : n2;
+//  while (1)
+
+//LCM question
+
+// // {
+// //     if (mx%n1!=0&&mx%n2==0)
+// //     {
+// //         cout << mx << "\nlcm\n";
+// //         break;
+// //     }
+// //     mx++;
+// // }
+
+// HCF question
+
+// {
+//     if (n1%min==0 && n2%min==0)
+//     {
+//         cout << min << "\nhcf\n";
+//         break;
+//     }
+//     min--;
+// }
+
+// factor question
+
+    int n = 15;
+    int k = n;
+    int count = 0;
+    while (n>=1)
+    {
+        if (k%n==0)
+        {
+            cout << n << "\n";
+            if (k%n==0)
+            {
+                count = count + 1;
+            }
+            
+
+        }
+        n--;
+        
+    }
+    cout << count << "\n";
 }
