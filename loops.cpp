@@ -219,23 +219,57 @@ int main()
 
 // factor question
 
-    int n = 15;
+//     int n = 15;
+//     int k = n;
+//     int count = 0;
+//     while (n>=1)
+//     {
+//         if (k%n==0)
+//         {
+//             cout << n << "\n";
+//             if (k%n==0)
+//             {
+//                 count = count + 1;
+//             }
+        
+//         }
+//         n--;
+        
+//     }
+//     cout << count << "\n";
+ 
+// int a,b, d=10;
+// cout<<"check the number is prime";
+// cin >> a;
+// b = a - 1;
+// while (b>1)
+// {
+//     if (a%b==0)
+//     {
+//         d = 1;
+//         break;
+//     }
+//     b--;
+// }
+//   if (d==1)
+//   {
+//       cout << "its not a prime number";
+//   }
+//   else{
+//     cout<<"its a prime number";
+//   }
+
+    int n = 27;
     int k = n;
+    //cin >> n;
     int count = 0;
     while (n>=1)
     {
-        if (k%n==0)
-        {
-            cout << n << "\n";
-            if (k%n==0)
-            {
-                count = count + 1;
-            }
-            
-
+       if (k%n==0)
+       {
+           cout << n << " this is perfect number\n";
+       }
+       n--;
         }
-        n--;
-        
-    }
-    cout << count << "\n";
+        cout << count << "\n";
 }
