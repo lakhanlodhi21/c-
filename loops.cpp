@@ -67,7 +67,7 @@ int main()
 
     // } while (a <= 10);
 
-    //write a program to print the sum of the values between 1 to 10
+    // write a program to print the sum of the values between 1 to 10
 
     // int a = 1, c = 0 ;
     // do
@@ -79,6 +79,8 @@ int main()
 
     // cout<<"total value\n"<<c;
 
+    // factorial program
+
     // int a, b = 1;
     // cout << "enter number\n";
     // cin >> a;
@@ -87,7 +89,7 @@ int main()
     //     b = b * a;
     //     a--;
     // } while (a>=1);
-    // cout << b;
+    // cout << b; }
 
     // while loop -->>
 
@@ -96,18 +98,18 @@ int main()
     //     /* code */
     // } -->> syntax
 
-    // while will execute the statement if the condition is true otherwise it will terminate the loop and it is also called entry loop 
-    
-// int a = 1;
-// cout << "enter number\n";
-// while (a>=10)
-// {
-//     cout << a;
-//     a++;
-// }
+    // while will execute the statement if the condition is true otherwise it will terminate the loop and it is also called entry loop
+
+    //     int a = 1;
+    //     cout << "enter number\n";
+    //     while (a<=10)
+    //     {
+    //         cout << a;
+    //         a++;
+    //     }
+    // }
 
     // int a = 5564647738;
-    // cout << "enter a number";
     // while (a>=10)
     // {
     //    if (a==10)
@@ -123,7 +125,7 @@ int main()
     // cin >> a;
     // while (a>0)
     // {
-        
+
     // }
 
     // int i = 10;
@@ -138,7 +140,7 @@ int main()
     // {
     //     cout << i <<"\t";
     //     i--;
-    // } 
+    // }
 
     // for loop
 
@@ -172,104 +174,173 @@ int main()
 
     // write a progran to display odd number between 20 to 50
 
-    
     // for (int i = 20; i<=50; i++)
     // {
     //    if (i%2!=0)
     //    {
     //        cout << i << "\n";
     //    }
-       
+
     // }
-    
-// write a program to find out the given number is prime or not
 
-// jab pata hota hai ki loop kab se kab tak chalega to for loop 
-// jab pata nhii rehta ki kab se kab tak chalega  to while loop
+    // write a program to find out the given number is prime or not
 
-// both for hcf AND LCM
+    // jab pata hota hai ki loop kab se kab tak chalega to for loop
+    // jab pata nhii rehta ki kab se kab tak chalega  to while loop
 
-// int n1 = 50;
-// int n2 = 10;
-// int min;
-//  min = n1 < n2 ? n1 : n2;
-//  while (1)
+    // both for hcf AND LCM
 
-//LCM question
+    //     int n1 = 50;
+    //     int n2 = 10;
+    //     int mx;
+    //      mx = n1 < n2 ? n1 : n2;
+    //      while (1)
 
-// // {
-// //     if (mx%n1!=0&&mx%n2==0)
-// //     {
-// //         cout << mx << "\nlcm\n";
-// //         break;
-// //     }
-// //     mx++;
-// // }
+    //    // LCM question
 
-// HCF question
+    //     {
+    //         if (mx%n1==0&&mx%n2==0)
+    //         {
+    //             cout << mx << "\nlcm\n";
+    //             break;
+    //         }
+    //         mx++;
+    //     }
 
-// {
-//     if (n1%min==0 && n2%min==0)
-//     {
-//         cout << min << "\nhcf\n";
-//         break;
-//     }
-//     min--;
-// }
+    // HCF question
 
-// factor question
+    // {
+    //     if (n1%min==0 && n2%min==0)
+    //     {
+    //         cout << min << "\nhcf\n";
+    //         break;
+    //     }
+    //     min--;
+    // }
 
-//     int n = 15;
-//     int k = n;
+    // factor question
+
+    // int n = 15;
+    // int k = n;
+    // int count = 0;
+    // while (n>=1)
+    // {
+    //     if (k%n==0)
+    //     {
+    //         cout << n << "\n";
+    //         if (k%n==0)
+    //         {
+    //             count = count + 1;
+    //         }
+    //     }
+    //     n--;
+    // }
+    // cout << count << "\n";
+
+    // int a,b, d=10;
+    // cout<<"check the number is prime";
+    // cin >> a;
+    // b = a - 1;
+    // while (b>1)
+    // {
+    //     if (a%b==0)
+    //     {
+    //         d = 1;
+    //         break;
+    //     }
+    //     b--;
+    // }
+    //   if (d==1)
+    //   {
+    //       cout << "its not a prime number";
+    //   }
+    //   else{
+    //     cout<<"its a prime number";
+    //   }
+
+    //     int n = 27;
+    //     int k = n;
+    //     //cin >> n;
+    //     int count = 0;
+    //     while (n>=1)
+    //     {
+    //        if (k%n==0)
+    //        {
+    //            cout << n << " this is perfect number\n";
+    //        }
+    //        n--;
+    //         }
+    //         cout << count << "\n";
+    // }
+
+    // int a, b, d = 10;
+    // cout << "enter number";
+    // cin >> a;
+    // b = a - 1;
+    // while (b>1)
+    // {
+    //     if (a%b==0)
+    //     {
+    //         d = 1;
+    //         break;
+    //     }
+    //     b--;
+    // }
+    // if (d==1)
+    // {
+    //     cout << "its not a prime number";
+    // }
+    // else{
+    //     cout << "its a prime";
+    // }
+    // }
+
+    //     int a=1, b = 0;
+    //     do
+    //     {
+    //         b = b + a;
+    //         a++;
+    //     } while (a<=10);
+    //     cout << "total value" << b;
+    // }
+
+    // factorial program practice
+
+    //     int a, b = 1;
+    //     cout << "enter number \n";
+    //     cin >> a;
+    //     do
+    //     {
+    //         b = b * a;
+    //         a--;
+    //     } while (a>=1);
+    //     cout << b;
+    // }
+
+    // int a;
+    // cout << "enter number \n";
+    // cin >> a;
+    // for (int b=1; b <= 10; b++)
+    // {
+    //     cout << a * b <<"\n";
+    // }
+
+//     int a = 150;
+//     int b = a;
 //     int count = 0;
-//     while (n>=1)
+//     while (a >= 1)
 //     {
-//         if (k%n==0)
+//         if (b % a == 0)
 //         {
-//             cout << n << "\n";
-//             if (k%n==0)
+//             cout << a << "\n";
+//             if (b%a==0)
 //             {
 //                 count = count + 1;
 //             }
-        
 //         }
-//         n--;
-        
+//         a--;
 //     }
 //     cout << count << "\n";
- 
-// int a,b, d=10;
-// cout<<"check the number is prime";
-// cin >> a;
-// b = a - 1;
-// while (b>1)
-// {
-//     if (a%b==0)
-//     {
-//         d = 1;
-//         break;
-//     }
-//     b--;
 // }
-//   if (d==1)
-//   {
-//       cout << "its not a prime number";
-//   }
-//   else{
-//     cout<<"its a prime number";
-//   }
 
-    int n = 27;
-    int k = n;
-    //cin >> n;
-    int count = 0;
-    while (n>=1)
-    {
-       if (k%n==0)
-       {
-           cout << n << " this is perfect number\n";
-       }
-       n--;
-        }
-        cout << count << "\n";
-}
+
