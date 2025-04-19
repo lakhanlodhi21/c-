@@ -58,10 +58,6 @@
 
 // write a program to generate the will of electricity using following constraints
 
-//
-
-// 
-
 // int a,b,c;
 // cout << "enter 2 numbers \n";
 // cin >> a >> b; 

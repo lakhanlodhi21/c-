@@ -28,7 +28,7 @@ int main(){
     // else{
     //     cout << "c is grestest number";
     // }
-    int n;
+    // int n;
     // cout << "enter any number";
     // cin >> n;
     // if (n>5)
