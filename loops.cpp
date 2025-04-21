@@ -196,7 +196,7 @@ int main()
     //      mx = n1 < n2 ? n1 : n2;
     //      while (1)
 
-    //    // LCM question
+   
 
     //     {
     //         if (mx%n1==0&&mx%n2==0)
@@ -204,6 +204,7 @@ int main()
     //             cout << mx << "\nlcm\n";
     //             break;
     //         }
+    
     //         mx++;
     //     }
 
